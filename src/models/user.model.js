@@ -53,7 +53,7 @@ const userSchema = new Schema({
 //middlewares
 userSchema.pre("save", async function(next){
     if(this.isModified("password")){
-        this.password = bcrypt.hash(this.password, 10) //"10" is the hashround
+        this.password = await bcrypt.hash(this.password, 10) //"10" is the hashround
     }
     next()
 }) //Don't use arrow function here because it have no access to "this"

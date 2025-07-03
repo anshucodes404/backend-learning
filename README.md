@@ -39,7 +39,7 @@ A backend learning project inspired by Chai aur Code, built with Node.js, Expres
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/your-username/chai-aur-backend.git
+git clone https://github.com/anshucodes404/chai-aur-backend.git
 cd chai-aur-backend
 ```
 
@@ -72,7 +72,7 @@ The server will start on the port specified in your `.env` file.
 
 ## Author
 
-[anshu kumar](https://github.com/anshukr95086)
+[anshu kumar](https://github.com/anshucodes404)
 
 ## License
 
