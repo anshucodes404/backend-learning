@@ -4,7 +4,7 @@ import dotenv from "dotenv"
 import connectBD from "./db/index.js"
 import app from "./app.js"
 
-dotenv.config({path: './env'})
+dotenv.config({path: './.env'})
 
 //an async function will return a promise so can use then and catch
 connectBD()
